@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Instant PHP Domain Availability Checker Script</title>    
+        <title>Live or Not Domain</title>    
     </head>
     <body>
         <div class="wrapper">
-            <h2>Check Domain Name Availability</h2>
+            <h2>Kiểm Tra Domain</h2>
             <div class="container">
                 <form action="" method="GET">
-                    <input id="searchBar" class="searchbar" type="text" name="domain" placeholder="Search domain name..." value="<?php if(isset($_GET['domain'])){ echo $_GET['domain']; } ?>">
+                    <input id="searchBar" class="searchbar" type="text" name="domain" placeholder="Enter domain name..." value="<?php if(isset($_GET['domain'])){ echo $_GET['domain']; } ?>">
                     <button type="submit" id="btnSearch" class="btn-search"><i class="fa fa-search"></i></button>
                 </form>
             </div>
